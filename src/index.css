@@ -1,0 +1,107 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* .active_class{
+    border-bottom: 1px solid blue;
+} */
+
+#navbarNav a:hover{
+    color: rgb(8, 31, 233);
+}
+
+
+.active_class{
+    font-weight: bold;
+    border-bottom: 1px solid blue;
+}
+
+/* #top{
+    border: 1px solid blue;
+}
+
+#top2{
+    border: 1px solid blue;
+} */
+
+#demo01{
+    color: blue;
+}
+
+
+#header{
+    margin-top: 155px;
+}
+
+.img_animated{
+    animation: upDown 2s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes upDown{
+    0%{
+        transform: translateY(22px);
+    }
+
+    100%{
+        transform: translateY(-22px);
+    }
+}
+
+#get-start{
+    outline: none;
+}
+
+
+.service-heading{
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+
+#service{
+    margin-top: 55px;
+    margin-bottom: 120px;
+}
+
+
+.card{
+    text-align: center;
+}
+
+
+#about-sec{
+    margin-top: 55px;
+    margin-bottom: 50px;
+    color: rgb(100, 95, 95);
+}
+
+#contact-sec{
+    margin-top: 83px;
+    margin-bottom: 83px;
+}
+
+
+.full-name {
+    width: 250px;
+}
+.email{
+    width: 250px;
+}
+.address{
+    width: 250px;
+}
+.contact{
+    width: 250px;
+}
+
+
+.description{
+    width: 620px;
+}
+
+#descrip{
+    justify-items: space-around;
+}
